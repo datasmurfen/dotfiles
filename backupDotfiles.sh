@@ -18,5 +18,5 @@ cp -r /home/oddvar/.gitconfig /home/oddvar/dotfiles/
 
 
 git add . 
-git commit -m "autobackup dotfiles on `date +'%Y-%m-%d %H:%M:%S'`";
+git commit -m "autobackup dotfiles on `date +'%d-%m-%Y %H:%M:%S'`";
 git push origin master 
