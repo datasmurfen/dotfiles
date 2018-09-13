@@ -1,26 +1,28 @@
-#Android Studio
+
+
+## Android Studio
 #sudo mkdir /opt/tmp
 #sudo chmod 777 /opt/tmp
 #export TMPDIR=/opt/tmp
 #yaourt -S android-studio
 
 
-#Install Vim
+## Vim
 #sudo pacman -S vim
 
-# Install Terminator 
+## Terminator 
 #sudo pacman -S terminator 
 
-# Install Yaourt 
+## Yaourt 
 #sudo pacman -S yaourt
 
-#Install Google Chrome 
+## Google Chrome 
 #yaourt -S google-chrome
 
-#Zsh - open in terminator, and run zsh to setup
+## Zsh - open in terminator, and run zsh to setup
 #pacman -S zsh
 
-#Change shell 
+## Change shell 
 #chsh -s $(which zsh)
 
 ## I3
@@ -29,20 +31,24 @@
 ## PlayerCtl
 ##sudo pacman -S playerctl
 
-#Feh 
+## Feh 
 # sudo pacman -S feh
 
-#Arandr
+## Arandr
 #sudo pacman -S arandr
 
-#Rofi 
+## Rofi 
 #sudo pacman -S rofi
 
-#Visual Studio Code
+## Visual Studio Code
 #yaourt -S visual-studio-code-bin
 
-#Discord
+## Discord
 #yaourt -S discord-canary
 
-#Spotify
+## Spotify
 #yaourt -S spotify
+
+## Oh-my-zsh
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
