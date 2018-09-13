@@ -1,3 +1,45 @@
+# This is Git's per-user configuration file.
 [user]
-	email = oddvar.tengesdal@hotmail.com
-	name = Oddvar Tengesdal
+
+# Please adapt and uncomment the following lines:
+        name = Oddvar Tengesdal
+        email = oddvar.tengesdal@hotmail.com
+[alias]
+        co = checkout
+        bs = bisect
+        br = branch
+        ci = commit
+        mt = mergetool
+        dt = difftool
+        st = status
+        rb = rebase
+        rs = reset
+        rv = revert
+        stasha = stash save -u
+        adda = add -A :/
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        lga = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+        lgam = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all --author 'Oddvar Tengesdal'
+        lgnm = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --no-merges
+        mine = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all --author 'Oddvar Tengesdal'
+        cp = cherry-pick
+        back = reset HEAD^
+[core]
+        editor = vim
+[pull]
+        rebase = true
+[push]
+        default = simple
+[rebase]
+        autoSquash = true
+[diff]
+        tool = meld
+	guitool = meld
+[difftool]
+        promt = false
+[merge]
+        tool = meld
+[mergetool]
+        keepBackup = false
+        prompt = false
+        trustExitCode = true
