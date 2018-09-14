@@ -246,5 +246,5 @@ exec --no-startup-id i3-msg 'workspace 9: Skype; exec skypeforlinux'
 assign [class="Spotify"] $ws10
 exec --no-startup-id i3-msg 'workspace 10: Spotify; exec spotify'
 
-# Setting screem resolution, and scale mode. 
+# Setting screen resolution, and scale mode for laptop. 
 exec_always xrandr --output eDP1 --mode 1920x1080  --scale 1x1
