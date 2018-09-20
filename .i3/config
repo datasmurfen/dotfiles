@@ -203,8 +203,12 @@ bar {
  
  
 # Lock your computer
-bindsym $mod+Shift+x exec i3lock --color 475263 -i /home/oddvar/Pictures/wallpaper.jpg
- 
+bindsym $mod+Shift+x exec i3lock -e -f -c 000000 -i /home/oddvar/.config/i3/lockscreen.png
+
+# set background image
+exec_always feh --bg-fill /home/oddvar/.config/i3/wallpaper.png
+
+
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
@@ -229,11 +233,6 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Setting screen resolution, and scale mode for laptop. 
 exec_always xrandr --output eDP1 --mode 1920x1080  --scale 1x1
-
-
-# set background image
-exec_always feh --bg-fill /home/oddvar/Pictures/wallpaper.jpg
-
  
 assign [class="Google-chrome"] $ws1
 exec --no-startup-id i3-msg 'workspace 1: Chrome; exec google-chrome-stable'
