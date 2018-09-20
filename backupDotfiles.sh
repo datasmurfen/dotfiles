@@ -1,17 +1,17 @@
 echo "Backing up .i3"
 rm -rf .i3/*
-cp -r /home/oddvar/.config/i3/* /home/oddvar/dotfiles/.i3/          
+cp -r ~/.config/i3/* ~/dotfiles/.i3/          
 
 
 echo "Backing up .zshrc"
 rm -rf .zshrc
-cp /home/oddvar/.zshrc /home/oddvar/dotfiles/         
+cp ~/.zshrc ~/dotfiles/         
 
 
 
 echo "Backing up .gitconfig"
 rm -rf .gitconfig
-cp /home/oddvar/.gitconfig /home/oddvar/dotfiles/         
+cp ~/.gitconfig ~/dotfiles/         
 
 
 
