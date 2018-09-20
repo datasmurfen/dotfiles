@@ -1,5 +1,5 @@
 echo "Pulling from GitHub"
-#git reset --hard HEAD
+git reset --hard HEAD
 git pull origin master 
 
 
