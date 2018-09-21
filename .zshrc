@@ -102,6 +102,12 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 
+export ANDROID_HOME=/home/oddvar/Android/Sdk
+
+export PATH=${PATH}:$ANDROID_HOME/tools
+
+
+
 [ -z "$NVM_DIR" ] && export NVM_DIR="$HOME/.nvm"
 source /usr/share/nvm/nvm.sh
 source /usr/share/nvm/bash_completion
