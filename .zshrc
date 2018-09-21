@@ -106,6 +106,7 @@ export ANDROID_HOME=/home/oddvar/Android/Sdk
 
 export PATH=${PATH}:$ANDROID_HOME/tools
 
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
 
 
 [ -z "$NVM_DIR" ] && export NVM_DIR="$HOME/.nvm"

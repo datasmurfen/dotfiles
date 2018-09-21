@@ -1,4 +1,5 @@
-
+## Java
+#sudo pacman -S java-8-openjdk
 
 ## Android Studio
 #sudo mkdir /opt/tmp
@@ -65,6 +66,11 @@
 ## Gradle 
 #sudo pacman -S gradle
 
-##NCU
+## NCU
 #npm install -g npm-check-updates
 
+## React
+#npm install react -g
+
+## React starter
+#npm install create-react-app -g
