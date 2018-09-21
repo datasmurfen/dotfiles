@@ -65,4 +65,6 @@
 ## Gradle 
 #sudo pacman -S gradle
 
+##NCU
+#npm install -g npm-check-updates
 
