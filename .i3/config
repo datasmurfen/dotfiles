@@ -109,8 +109,8 @@ set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
-set $ws8 "8: Discord"
-set $ws9 "9: Skype"
+set $ws8 "8"
+set $ws9 "9: Discord"
 set $ws10 "10: Spotify"
  
 # switch to workspace
@@ -240,11 +240,8 @@ exec --no-startup-id i3-msg 'workspace 1: Chrome; exec google-chrome-stable'
 assign [class="Terminator"] $ws2
 exec --no-startup-id i3-msg 'workspace 2: Terminal; exec terminator'
  
-assign [class="Discord"] $ws8
-exec --no-startup-id i3-msg 'workspace 8: Discord; exec discord-canary'
- 
-assign [class="Skype"] $ws9
-exec --no-startup-id i3-msg 'workspace 9: Skype; exec skypeforlinux'
- 
+assign [class="Discord"] $ws9
+exec --no-startup-id i3-msg 'workspace 9: Discord; exec discord-canary'
+  
 assign [class="Spotify"] $ws10
 exec --no-startup-id i3-msg 'workspace 10: Spotify; exec spotify'
