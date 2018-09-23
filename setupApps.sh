@@ -62,7 +62,6 @@
 ## Ionic Cordova 
 #npm install ionic cordova -g
 
-
 ## Gradle 
 #sudo pacman -S gradle
 
@@ -74,3 +73,6 @@
 
 ## React starter
 #npm install create-react-app -g
+
+## Install neovim
+#sudo pacman -S neovim

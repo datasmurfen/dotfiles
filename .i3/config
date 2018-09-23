@@ -231,8 +231,12 @@ bindsym XF86AudioPrev exec playerctl previous
 # To make VMware play nicely i.e. support resizing, copy-paste etc.
 # exec vmware-user-suid-wrapper --no-startup-id
 
-# Setting screen resolution, and scale mode for laptop. 
-exec_always xrandr --output eDP1 --mode 1920x1080  --scale 1x1
+# Setting screen resolution, and scale mode for laptop screen. 
+#exec xrandr --output eDP1 --mode 1920x1080  --scale 1x1
+
+# Setting screen resolution, and scale mode for external screen. 
+#exec xrandr --output HDMI2 --mode 3440x1440  --scale 1x1
+
  
 assign [class="Google-chrome"] $ws1
 exec --no-startup-id i3-msg 'workspace 1: Chrome; exec google-chrome-stable'
