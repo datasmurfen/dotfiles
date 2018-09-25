@@ -76,3 +76,9 @@
 
 ## Install neovim
 #sudo pacman -S neovim
+
+## Disable screensaver
+#xset s off
+
+## Turn off power saving feature
+#xset -dpms
