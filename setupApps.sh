@@ -82,3 +82,7 @@
 
 ## Turn off power saving feature
 #xset -dpms
+
+
+## Ranger file browser
+#pacman -S ranger

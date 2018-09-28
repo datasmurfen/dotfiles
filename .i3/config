@@ -232,10 +232,16 @@ bindsym XF86AudioPrev exec playerctl previous
 # exec vmware-user-suid-wrapper --no-startup-id
 
 # Setting screen resolution, and scale mode for laptop screen. 
-#exec xrandr --output eDP1 --mode 1920x1080  --scale 1x1
+exec_always xrandr --output eDP1 --mode 1920x1080  --scale 1x1
 
 # Setting screen resolution, and scale mode for external screen. 
 #exec xrandr --output HDMI2 --mode 3440x1440  --scale 1x1
+
+# Disable screensaver
+exec_always xset s off 
+
+# Turn off power saving feature
+exec_always xset -dpms
 
  
 assign [class="Google-chrome"] $ws1
