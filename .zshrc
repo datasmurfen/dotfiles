@@ -102,9 +102,8 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 
-JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin"
-export JAVA_HOME
-
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
 
 
 export NVM_DIR="$HOME/.nvm"
