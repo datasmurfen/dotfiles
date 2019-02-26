@@ -86,3 +86,6 @@
 
 ## Ranger file browser
 #pacman -S ranger
+
+## Rofi Themes
+#git clone https://github.com/DaveDavenport/rofi-themes.git
