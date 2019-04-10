@@ -89,3 +89,6 @@
 
 ## Rofi Themes
 #git clone https://github.com/DaveDavenport/rofi-themes.git
+
+## Install autojump
+#git clone git://github.com/wting/autojump.git && cd autojump && ./install.py
